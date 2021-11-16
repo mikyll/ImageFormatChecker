@@ -29,7 +29,7 @@ while getopts ":d:hm:M:l:rs" opt; do
 			echo "	-m <min_dim>, the script will check if the dimension of the images are beyond the minimum <min_dim>"
 			echo "	-M <max_dim>, the script will check if the dimension of the images are beyond the maximum <max_dim>"
 			echo "	-s, the script will check if the images are squared (i.e. NxM with N == M)"
-			echo "	-r, rename each file with the name of the Pokémon of its parent folder"
+			echo "	-r, rename each file with the name of its parent folder, followed by its index inside the directory"
 			echo "		example: /Pokémon/Voltorb/cbahf4kasdm3.jpg -> /Pokémon/Voltorb/Voltorb1.jpg"
 			
 			exit 0
