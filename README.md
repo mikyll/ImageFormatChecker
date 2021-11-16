@@ -43,4 +43,4 @@ user@hostname: ~$ ./img_script -d Pokémon/ -s -m 250 -l log.txt
 ImageMagick package must be installed.
 
 ### To-Do
-Add extension check (specify a list of extensions, e.g. '.jpg, .png")
+Add extension check (specify a list of extensions, e.g. '.jpg, .png')
