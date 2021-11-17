@@ -57,4 +57,6 @@ user@hostname: ~$ ./img_script -d Pokémon/ -m 250 -r
 ImageMagick package must be installed.
 
 ### To-Do
-Add extension check (specify a list of extensions, e.g. '.jpg, .png')
+- [ ] Fix filename with spaces bug;
+- [ ] Fix the rename bug which deletes some files if they're already named in the same way;
+- [ ] Add extension check (specify a list of extensions, e.g. '.jpg, .png');
