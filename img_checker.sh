@@ -94,7 +94,7 @@ do
 		extension="${filename##*.}"
 		pokemon_name=$(echo "${f}" | cut -d '/' -f 2)
 		
-		mv "${f}" "${DIR}/${current_pkmn_name}/${current_pkmn_name}$i.${extension}"
+		mv -n "${f}" "${DIR}/${current_pkmn_name}/${current_pkmn_name}$i.${extension}"
 		
 		f="${DIR}/${current_pkmn_name}/${current_pkmn_name}$i.${extension}"
 	fi
